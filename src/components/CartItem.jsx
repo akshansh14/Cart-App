@@ -14,7 +14,7 @@ function handelremove(){
 }
   return (
     <div className='flex py-[70px] pr-6 w-full border-b-2 border-slate-500'>
-        <div className="w-[40%] items-center flex  justify-center"><img src={post.image} className='h-[180px]  '/></div>
+        <div className="w-[40%] items-center flex  justify-center"><img src={post.image} alt='IMG' className='h-[180px]  '/></div>
         <div className="w-[60%] flex flex-col gap-3">
             <h2 className='text-xl text-gray-700 font-bold'>{post.title}</h2>
             <p className='text-lg text-gray-600'>{post.description.split(" ").slice(0,15).join(" ")+"..."}</p>
